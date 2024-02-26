@@ -1,0 +1,123 @@
+.container-resiger {
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+    
+}
+.container-resiger h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.container-resiger form{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-resiger form h2 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.form-row-register {
+    display: block;
+    margin-bottom: 10px;
+}
+.resiger-left {
+    width: 45%;
+}
+.resiger-right {
+    width: 45%;
+}
+.form-column {
+    flex-basis: 48%;
+}
+
+.form-column label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-column input[type="text"],
+.form-column input[type="email"],
+.form-column input[type="tel"],
+.form-column input[type="date"],
+.form-column select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-column input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-actions {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form-actions button {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+} */
+
+.form-column {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-column label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-column input[type="password"],
+.form-column input[type="text"],
+.form-column img {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.form-actions {
+    text-align: center;
+}
+
+.form-actions button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-actions label {
+    display: block;
+    margin-bottom: 5px;
+}

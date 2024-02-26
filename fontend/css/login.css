@@ -1,0 +1,143 @@
+.container-login{
+    padding-top: 100px;
+    width: 100%;
+}
+.login {
+    border-right: 1px solid #ccc;
+    width: 50%;
+}
+
+.form-row{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: #221f20;
+    text-align: center;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #6c6d70;
+    text-align: center;
+}
+
+
+.col {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.login-content{
+    margin-top: 10px;
+}
+
+.login-form {
+    margin-top: 24px;
+    max-width: 100%;
+    padding: 10px 50px;
+}
+
+.input-login{
+    margin-bottom: 1rem;
+}
+
+.form-control{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #E7E8E9;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 14px;
+    color: #57585a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.other-option{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-link{
+    color: #221f20;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline;
+}
+
+.form-button{
+    margin-top: 29px;
+}
+
+.form-button.btn{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* font-weight: bold; */
+}
+
+.btn--large{
+    padding: 12px 24px;
+    border-radius: 16px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #221f20;
+    color: #f7f8f9;
+    border: 1px solid transparent;
+    width: 100%;
+}
+
+.btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    /* text-align: center;
+    vertical-align: middle;
+    transition: color .15s */
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: none;
+    border: 1px solid black;
+}
+
+
+
+/* .form-button{
+    padding: 12px 24px;
+    border-radius: 16px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #221f20;
+    color: #f7f8f9;
+    border: 1px solid transparent;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+} */
+
+.register{
+    width: 50%;
+}
+
+.register-content{
+    font-size: 100%;
+    vertical-align: baseline;
+    margin-top: 10px;
+}
